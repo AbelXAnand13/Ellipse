@@ -1,14 +1,17 @@
-//
-//  main.cpp
-//  EllipseTest
-//
-//  Created by Abel Anand on 3/1/22.
-//
-
+//Abel Anand
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+#define _USE_MATH_DEFINES
+#include <math.h>
+#include "ellipse.h"
+int main() {
+    ellipse oval;
+    int radii1;
+    int radii2;
+    cout << "Bruh, enter a radius like rn\n";
+    cin >> radii1;
+    cout << "Another one\n";
+    cin >> radii2;
+    oval.setRadii(radii1, radii2);
+    cout << "Circumference = " << oval.getCircumference() << "\nArea = " << oval.getArea() << endl;
 }

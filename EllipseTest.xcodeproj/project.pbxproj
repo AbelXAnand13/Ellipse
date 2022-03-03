@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5721FDE727CE9288001ADEA5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5721FDE627CE9288001ADEA5 /* main.cpp */; };
+		57FD864827CE944D0078DBDF /* ellipse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57FD864627CE944D0078DBDF /* ellipse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5721FDE327CE9287001ADEA5 /* EllipseTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EllipseTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5721FDE627CE9288001ADEA5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		57FD864527CE93A80078DBDF /* ellipse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ellipse.h; sourceTree = "<group>"; };
+		57FD864627CE944D0078DBDF /* ellipse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ellipse.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5721FDE627CE9288001ADEA5 /* main.cpp */,
+				57FD864527CE93A80078DBDF /* ellipse.h */,
+				57FD864627CE944D0078DBDF /* ellipse.cpp */,
 			);
 			path = EllipseTest;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FD864827CE944D0078DBDF /* ellipse.cpp in Sources */,
 				5721FDE727CE9288001ADEA5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
